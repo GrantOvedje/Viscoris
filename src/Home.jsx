@@ -82,7 +82,7 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="./images/shopping.svg" width={1364} height={1117} alt="woman shopping" />
+            <img src="/shopping.svg" width={1364} height={1117} alt="woman shopping" />
           </div>
         </section>
 
@@ -180,7 +180,7 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="/src/images/buyerseller.svg" width={650} height={1117} alt="woman shopping" />
+            <img src="/images/buyerseller.svg" width={650} height={1117} alt="woman shopping" />
           </div>
         </section>
       </main>
