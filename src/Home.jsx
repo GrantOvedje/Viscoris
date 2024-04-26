@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { supports } from "localforage";
 import Scroll from "./scroll";
 import { useEffect } from "react";
+import shopping from "./images/shopping.scg
 
 export default function Home() {
   useEffect(() => {
@@ -82,7 +83,7 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="/shopping.svg" width={1364} height={1117} alt="woman shopping" />
+            <img src={shopping} width={1364} height={1117} alt="woman shopping" />
           </div>
         </section>
 
