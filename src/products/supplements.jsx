@@ -4,9 +4,9 @@ import Scroll from "../scroll";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import vaginne from "../images/vaginne.jpg";
-import flexes from "/src/images/flexes1.jpg";
-import adwelle from "images/adwelle1.jpg";
-import healthywoman from "src/images/healthywoman.svg";
+import flexes from "../images/flexes1.jpg";
+import adwelle from "../images/adwelle1.jpg";
+import healthywoman from "../images/healthywoman.svg";
 
 
 const products=[
