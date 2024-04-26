@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import vintage1 from "../images/vintage.avif";
 import vintage2 from "../images/vintage2.jpg";
-import blackshoe from "../images/black-cover-shoe-women.jpg";
+import blackshoe from "../images/Black-cover-shoe-women.jpg";
 import brownshoe from "../images/brown-cover-shoe-women.jpg";
 import blackpalm from "../images/black-palm-women.jpg";
 import womenopenshow1 from "../images/women-open-show-1.jpg";
