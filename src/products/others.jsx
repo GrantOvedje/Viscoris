@@ -3,17 +3,29 @@ import Footer from "../footer";
 import Scroll from "../scroll";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import vintage1 from "../images/vintage.avif";
+import vintage2 from "../images/vintage2.jpg";
+import blackshoe from "../images/black-cover-shoe-women.jpg";
+import brownshoe from "../images/brown-cover-shoe-women.jpg";
+import blackpalm from "../images/black-palm-women.jpg";
+import womenopenshow1 from "../images/women-open-show-1.jpg";
+import womenopenshow2 from "../images/women-open-show-2.jpg";
+import womenopenshow3 from "../images/women-open-show-3.jpg";
+import light1 from "../images/sencor-light-2.png";
+import light2 from "../images/cencor-light-1.png";
+import womanshopping from "../images/woman-shopping.svg";
+
 
 const shirts=[
     {
-        image:"/src/images/vintage.avif",
+        image: vintage1,
         name:"Vintage shirt",
         price:"₦10,000",
         alt:"8 vintage shirt on hanger",
     },
 
     {
-        image:"/src/images/vintage2.jpg",
+        image: vintage2,
         name:"vintage shit",
         price:"₦10,000",
         alt:"3 vintage shirt",
@@ -22,42 +34,42 @@ const shirts=[
 
 const shoesProduct = [
     {
-        image:"/src/images/Black-cover-shoe-women.jpg",
+        image: blackshoe,
         name:"Female black shoe",
         price:"₦12,000",
         alt:"female black cover shoe",
     },
 
     {
-        image:"/src/images/brown-cover-shoe-women.jpg",
+        image: brownshoe,
         name:"Female brown shoe",
         price:"₦12,000",
         alt:"female brown cover shoe",
     },
 
     {
-        image:"/src/images/black-palm-women.jpg",
+        image: blackpalm,
         name:"female black palm",
         price:"₦7,000",
         alt:"female black palm",
     },
 
     {
-        image:"/src/images/women-open-show-1.jpg",
+        image: womenopenshow1,
         name:"Female high shoe",
         price:"₦18,000",
         alt:"some sets of female high shoe",
     },
 
     {
-        image:"/src/images/women-open-show-2.jpg",
+        image: womenopenshow2,
         name:"female high shoe",
         price:"₦18,000",
         alt:"some sets of female high shoe",
     },
 
     {
-        image:"/src/images/women-open-show-3.jpg",
+        image: womenopenshow3,
         name:"female high shoe",
         price:"₦18,000",
         alt:"some sets of female high shoe",
@@ -66,14 +78,14 @@ const shoesProduct = [
 
 const appliances = [
     {
-        image: "/src/images/sencor-light-2.png",
+        image: light1,
         name: "Body sensor light",
         price: "₦6,000",
         alt: "intelligent light",
     },
 
     {
-        image: "/src/images/cencor-light-1.png",
+        image: light2,
         name: "Body sensor light",
         price: "₦6,000",
         alt: "intelligent light",
