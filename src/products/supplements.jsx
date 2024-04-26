@@ -3,10 +3,15 @@ import Footer from "../footer";
 import Scroll from "../scroll";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import vaginne from "./images/vaginne.jpg";
+import flexes from "./images/flexes1.jpg";
+import adwelle from "./images/adwelle1.jpg";
+import healthywoman from "./images/healthywoman.svg";
+
 
 const products=[
     {
-        image:"/src/images/vaginne.jpg",
+        image: vaginne,
         name:"Vaginne",
         about:"An intimate gel used to put an end to different female reproductive organ issues, itching, as well as childlessness. Vaginne boost the production of lactobacilli to keep the vagina healthy, kills bad bacterial with its anti-bacterial effects, repair vagina tissue, keeps it fresh and eliminate all unpleasant odor.",
         price:"₦20,000",
@@ -14,7 +19,7 @@ const products=[
     },
 
     {
-        image:"/src/images/flexes1.jpg",
+        image: flexes,
         name:"Flexes",
         about:"Humans do experience joint, bone, and even muscle pains at least once in thier life. Recent studies also show that both young and older people do experience one type of joint and bone problem or another. Flexes is a total comprehensive solution for bone and joint health. it has a unique taste and ready to drink anytime!",
         price:"₦70,000",
@@ -22,7 +27,7 @@ const products=[
     },
 
     {
-        image:"/src/images/adwelle1.jpg",
+        image: adwelle,
         name:"Adwelle",
         about:"Adwelle is a fruit and grains powdered drink that helps to regulate the balance of intestinal bacterial, reduces the risk of intestinal disease, promotes mineral absorption, lower blood fat and cholesterol, relieves constipation, regulates blood sugar, improves the immune system and enhances anti-inflammatory effect.",
         price:"₦60,000",
@@ -47,7 +52,7 @@ export default function Supplements(){
                         <p className="not-italic text-base md:text-base">With these Immeri supplements Viscoris renders you can have a strong and healthy life, free from health challenges that comes from unhealthy diet, infections and mostly from ageing. Below you can see the 3 (three) available powerful product we render.</p>
                     </div>
                     <div>
-                        <img src="/src/images/healthywoman.svg" width={1180} alt="svg of and healthy looking woman" />
+                        <img src={healthywoman} width={1180} alt="svg of and healthy looking woman" />
                     </div>
                 </section>
 
@@ -58,16 +63,16 @@ export default function Supplements(){
 
                     <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-center">
                         {
-                            products?.map((products)=>(
-                                <div key={products.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
-                                    <img src={products.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={products.alt} />
+                            products?.map((product)=>(
+                                <div key={product.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
+                                    <img src={product.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={product.alt} />
                                     <div className="flex flex-col gap-3 p-2 bg-gray-50 dark:bg-sky-950">
                                        <div className="flex justify-between">
-                                            <p className="text-xl font-semibold text-black dark:text-white">{products.name}</p>
-                                            <p className="text-xl font-thin text-black dark:text-white">{products.price}</p>
+                                            <p className="text-xl font-semibold text-black dark:text-white">{product.name}</p>
+                                            <p className="text-xl font-thin text-black dark:text-white">{product.price}</p>
                                         </div>
                                         
-                                        <p className="text-slate-800 dark:text-slate-50 p-2  bg-gray-200 dark:bg-sky-800">{products.about}</p>
+                                        <p className="text-slate-800 dark:text-slate-50 p-2  bg-gray-200 dark:bg-sky-800">{product.about}</p>
                                         <Link className="w-full rounded py-2 text-center text-lg font-bold text-white bg-sky-800 dark:bg-sky-600" to="/contacts">Request Item</Link>
                                     </div>
                                 </div>
