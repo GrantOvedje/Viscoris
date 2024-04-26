@@ -2,6 +2,7 @@ import Header from "./header";
 import Footer from "./footer";
 import Scroll from "./scroll";
 import { useEffect } from "react";
+import buyerseller from "./images/buyerseller.svg";
 
 export default function Contact(){
     useEffect(() => {
@@ -66,7 +67,7 @@ export default function Contact(){
                     </div>
 
                     <div>
-                        <img src="/src/images/buyerseller.svg" width={650} height={1117} alt="woman shopping" />
+                        <img src={buyerseller} width={650} height={1117} alt="woman shopping" />
                     </div>
                 </section>
             </main>
