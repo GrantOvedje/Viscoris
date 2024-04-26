@@ -3,10 +3,14 @@ import Footer from "../footer";
 import Scroll from "../scroll";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import ginseng1 from "../images/ginseng1.webp";
+import tongkatali from "../images/tongkatali.webp";
+import tongkataliganoderma from "../images/tongkataliganoderma.webp";
+import coffee from "../images/cup-coffee-table-front-street-with-city-lights-background.jpg";
 
 const products=[
     {
-        image:"/src/images/ginseng1.webp",
+        image: ginseng1,
         name:"ginseng Pack",
         about:"With these Immeri supplements we render you can have a strong and healthy life, free from health challenges that comes from unhealthy diet, infections and mostly from ageing.",
         price:"₦14,000",
@@ -14,7 +18,7 @@ const products=[
     },
 
     {
-        image:"/src/images/tongkatali.webp",
+        image: tongkatali,
         name:"tongkatali Pack",
         about:"With these Immeri supplements we render you can have a strong and healthy life, free from health challenges that comes from unhealthy diet, infections and mostly from ageing.",
         price:"₦14,000",
@@ -22,7 +26,7 @@ const products=[
     },
 
     {
-        image:"/src/images/tongkataliganoderma.webp",
+        image: tongkataliganoderma,
         name:"tongkatali-ganoderma",
         about:"With these Immeri supplements we render you can have a strong and healthy life, free from health challenges that comes from unhealthy diet, infections and mostly from ageing.",
         price:"₦14,000",
@@ -48,7 +52,7 @@ export default function Coffee(){
                         <p className=" text-base md:text-base">With these coffee products Viscoris renders you can have a more stress free, balanced and healthy life. Come have a taste with us and feal the life. More than just a coffee.</p>
                     </div>
                     <div>
-                        <img className="rounded-xl"  width={800}  src="/src/images/cup-coffee-table-front-street-with-city-lights-background.jpg" alt="svg of and healthy looking woman" />
+                        <img className="rounded-xl"  width={800}  src={coffee} alt="svg of and healthy looking woman" />
                     </div>
                 </section>
 
@@ -59,13 +63,13 @@ export default function Coffee(){
 
                     <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-center">
                         {
-                            products?.map((products)=>(
-                                <div key={products.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
-                                    <img src={products.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={products.alt} />
+                            products?.map((product)=>(
+                                <div key={product.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
+                                    <img src={product.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={product.alt} />
                                     <div className="flex flex-col gap-3 p-2 bg-gray-50 dark:bg-sky-950">
                                         <div className="flex justify-between">
-                                            <p className="text-xl font-semibold text-black dark:text-white">{products.name}</p>
-                                            <p className="text-xl font-thin text-black dark:text-white">{products.price}</p>
+                                            <p className="text-xl font-semibold text-black dark:text-white">{product.name}</p>
+                                            <p className="text-xl font-thin text-black dark:text-white">{product.price}</p>
                                         </div>
                                         <Link className="w-full px-8 rounded py-1 text-center text-lg font-bold text-white bg-cyan-600 dark:bg-cyan-400" to="/contacts">Request Item</Link>
                                     </div>
