@@ -44,28 +44,28 @@ export default function Home() {
 
   const products=[
     {
-      image: {vaginne},
+      image: vaginne,
       name:"Supplements",
       detail:"We deal on supplements for a better, healthy living.",
       button:"view our supplements",
       path:"/products/supplement",
     },
     {
-      image:{coffee},
+      image: coffee,
       name:"Coffees",
       detail:"We deal on coffees with extra benefits. More than just a coffee.",
       button:"view our coffees",
       path:"/products/coffee",
     },
     {
-      image:{ffx},
+      image: ffx,
       name:"Fuel Factor X",
       detail:"With fuel factor you can have a more economical fuel treatment.",
       button:"view our Fuel Factor",
       path:"/products/fuel-factor-x",
     },
     {
-      image:{vintage},
+      image: vintage,
       name:"Others",
       detail:"Others we deal on such as shirt, shoes, and small domestic appliances.",
       button:"see other things",
