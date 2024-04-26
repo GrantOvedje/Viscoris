@@ -5,6 +5,11 @@ import { supports } from "localforage";
 import Scroll from "./scroll";
 import { useEffect } from "react";
 import shopping from "./images/shopping.svg";
+import buyerseller from "./images/buyerseller.svg";
+import vaginne from "./images/vaginne.jpg";
+import coffee from "./images/cup-coffee-table-front-street-with-city-lights-background.jpg";
+import ffx from "./images/ffx-executive-pack.png";  
+import vintage from "./images/vintage.avif";
 
 export default function Home() {
   useEffect(() => {
@@ -39,28 +44,28 @@ export default function Home() {
 
   const products=[
     {
-      image:"/src/images/vaginne.jpg",
+      image:"vaginne",
       name:"Supplements",
       detail:"We deal on supplements for a better, healthy living.",
       button:"view our supplements",
       path:"/products/supplement",
     },
     {
-      image:"src/images/cup-coffee-table-front-street-with-city-lights-background.jpg",
+      image:"coffee",
       name:"Coffees",
       detail:"We deal on coffees with extra benefits. More than just a coffee.",
       button:"view our coffees",
       path:"/products/coffee",
     },
     {
-      image:"src/images/ffx-executive-pack.png",
+      image:"ffx",
       name:"Fuel Factor X",
       detail:"With fuel factor you can have a more economical fuel treatment.",
       button:"view our Fuel Factor",
       path:"/products/fuel-factor-x",
     },
     {
-      image:"/src/images/vintage.avif",
+      image:"vintage",
       name:"Others",
       detail:"Others we deal on such as shirt, shoes, and small domestic appliances.",
       button:"see other things",
@@ -114,13 +119,13 @@ export default function Home() {
           
           <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-center">
             {
-              products?.map((products)=>(
-                <div key={products.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
-                  <img src={products.image} className="w-60 h-56 sm:w-72 md:w-96 lg:w-96 lg:h-80" alt={products.alt} />
+              products?.map((product)=>(
+                <div key={product.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
+                  <img src={product.image} className="w-60 h-56 sm:w-72 md:w-96 lg:w-96 lg:h-80" alt={product.alt} />
                   <div className="p-2 flex flex-col gap-3 bg-white dark:bg-sky-950">
-                    <p className="text-xl font-semibold text-black dark:text-white">{products.name}</p>
-                    <p className="p-1">{products.detail}</p>
-                    <Link className="w-full rounded py-2 text-center text-lg font-bold text-white bg-cyan-600 dark:bg-cyan-500" to={products.path}>{products.button}</Link>
+                    <p className="text-xl font-semibold text-black dark:text-white">{product.name}</p>
+                    <p className="p-1">{product.detail}</p>
+                    <Link className="w-full rounded py-2 text-center text-lg font-bold text-white bg-cyan-600 dark:bg-cyan-500" to={product.path}>{product.button}</Link>
                   </div>
                 </div>
               ))
@@ -181,7 +186,7 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="/images/buyerseller.svg" width={650} height={1117} alt="woman shopping" />
+            <img src={buyerseller} width={650} height={1117} alt="woman shopping" />
           </div>
         </section>
       </main>
