@@ -110,7 +110,7 @@ export default function Others(){
                         <p className="not-italic text-base md:text-base">Why not spies your look with these clothes, shoes, domestic appliances and others we offer. A healthy living without a better looking is more like an unhappy feeling. Come have a life with us.</p>
                     </div>
                     <div>
-                        <img className="w-full lg:w-96" src="/src/images/woman-shopping.svg" width={500} alt="svg of and healthy looking woman" />
+                        <img className="w-full lg:w-96" src={womanshopping} width={500} alt="svg of and healthy looking woman" />
                     </div>
                 </section>
 
