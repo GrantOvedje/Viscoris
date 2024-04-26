@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { supports } from "localforage";
 import Scroll from "./scroll";
 import { useEffect } from "react";
-import shopping from "./images/shopping.scg
+import shopping from "./images/shopping.svg
 
 export default function Home() {
   useEffect(() => {
