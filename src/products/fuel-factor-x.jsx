@@ -3,38 +3,44 @@ import Footer from "../footer";
 import Scroll from "../scroll";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import ffxsinglepack from "../images/FFX-single-pack.png";
+import ffxbottle from "../images/Fuel-Factor-X-Bottle.jpg";
+import ffxgallon from "../images/Fuel-Factor-X-1-Gallon.png";
+import ffxbucket from "../images/Fuel-Factor-X-1-Bucket.png";
+import ffxdrum from "../images/Fuel-Factor-X-Drum.png";
+import ffx from "../images/ffx.jpg";
 
 const ffxProduct=[
     {
-        image:"/src/images/FFX-single-pack.png",
+        image: ffxsinglepack,
         name:"FFX pack",
         price:"12,000",
         alt:"fuel factor x single pack",
     },
 
     {
-        image:"/src/images/Fuel-Factor-X-Bottle.jpg",
+        image: ffxbottle,
         name:"FFX Bottle",
         price:"₦44,000",
         alt:"fuel factor x Bottle",
     },
 
     {
-        image:"/src/images/Fuel-Factor-X-1-Gallon.png",
+        image: ffxgallon,
         name:"FFX Gallon",
         price:"₦210,000",
         alt:"fuel factor x Gallon",
     },
 
     {
-        image:"/src/images/Fuel-Factor-X-1-Bucket.png",
+        image: ffxbucket,
         name:"FFX Bucket",
         price:"₦900,000",
         alt:"fuel factor x Bucket",
     },
 
     {
-        image:"/src/images/Fuel-Factor-X-Drum.png",
+        image: ffxdrum,
         name:"FFX Drum",
         price:"₦3,000,000",
         alt:"fuel factor x Drum",
@@ -60,7 +66,7 @@ export default function FactorX(){
                         <p className=" text-base md:text-base">Fuel Factor X is a fuel treatment product that can be used in both gasoline and diesel engines. This product has a variety of functions including: reducing emission, boost performance and improve the longitivity or your engine. By using this additive you will save money on fuel costs and produce less exhaust.</p>
                     </div>
                     <div>
-                        <img className="rounded-xl h-72"  width={700} src="/src/images/ffx.jpg" alt="man holding a syringe with a fuel factor x" />
+                        <img className="rounded-xl h-72"  width={700} src={ffx} alt="man holding a syringe with a fuel factor x" />
                     </div>
                 </section>
 
