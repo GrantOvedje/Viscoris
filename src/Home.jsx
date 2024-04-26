@@ -82,7 +82,7 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="/src/images/shopping.svg" width={1364} height={1117} alt="woman shopping" />
+            <img src="./src/images/shopping.svg" width={1364} height={1117} alt="woman shopping" />
           </div>
         </section>
 
