@@ -116,19 +116,19 @@ export default function Others(){
 
                 <section className="dark:bg-sky-900 px-4 py-6 md:py-16 sm:px-10 md:px-16 lg:px-24">
                     <div>
-                        <h1 className="text-black dark:text-white text-xl sm:text-2xl md:text-3xl text-center font-bold mb-8  ">Our <span className="text-amber-500">FFX</span> category</h1>
+                        <h1 className="text-black dark:text-white text-xl sm:text-2xl md:text-3xl text-center font-bold mb-8  ">Other <span className="text-amber-500">shopping</span> category</h1>
                     </div>
 
                     <h1 className="text-black dark:text-white text-lg sm:text-xl md:text-2xl text-center font-bold mb-5 ">Dress</h1>
                     <div className="mb-7 flex flex-col items-center gap-6 lg:flex-row lg:justify-center">
                         {
-                            shirts?.map((shirts)=>(
-                                <div key={shirts.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
-                                    <img src={shirts.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={shirts.alt} />
+                            shirts?.map((shirt)=>(
+                                <div key={shirt.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
+                                    <img src={shirt.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={shirt.alt} />
                                     <div className="flex flex-col gap-3 p-2 bg-gray-50 dark:bg-sky-950">
                                         <div className="mb-4 flex justify-between">
-                                            <p className="text-xl font-semibold text-black dark:text-white">{shirts.name}</p>
-                                            <p className="text-xl font-thin text-black dark:text-white">{shirts.price}</p>
+                                            <p className="text-xl font-semibold text-black dark:text-white">{shirt.name}</p>
+                                            <p className="text-xl font-thin text-black dark:text-white">{shirt.price}</p>
                                         </div>
                                         <Link className="w-full rounded py-2 text-center text-lg font-bold text-white bg-cyan-600 dark:bg-cyan-500" to="/contacts">Request Item</Link>
                                     </div>
@@ -159,13 +159,13 @@ export default function Others(){
                     <h1 className="text-black dark:text-white text-lg sm:text-xl md:text-2xl text-center font-bold mb-5 ">Domestic utensils and appliances</h1>
                     <div className="mb-7 flex flex-col items-center gap-6 lg:flex-row lg:justify-center">
                         {
-                            appliances?.map((appliances)=>(
-                                <div key={appliances.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
-                                    <img src={appliances.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={appliances.alt} />
+                            appliances?.map((appliance)=>(
+                                <div key={appliance.name} className=" border border-amber-300 dark:shadow-cyan-500/50 shadow-lg w-60 sm:w-72 md:w-96 lg:w-80">
+                                    <img src={appliance.image} className="w-60 sm:w-72 md:w-96 lg:w-80" height={200} alt={appliance.alt} />
                                     <div className="flex flex-col gap-3 p-2 bg-gray-50 dark:bg-sky-950">
                                         <div className="mb-4 flex justify-between">
-                                            <p className="text-xl font-semibold text-black dark:text-white">{appliances.name}</p>
-                                            <p className="text-xl font-thin text-black dark:text-white">{appliances.price}</p>
+                                            <p className="text-xl font-semibold text-black dark:text-white">{appliance.name}</p>
+                                            <p className="text-xl font-thin text-black dark:text-white">{appliance.price}</p>
                                         </div>
                                         <Link className="w-full rounded py-2 text-center text-lg font-bold text-white bg-cyan-600 dark:bg-cyan-500" to="/contacts">Request Item</Link>
                                     </div>
