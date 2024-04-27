@@ -137,7 +137,7 @@ export default function Home() {
           <div className="flex flex-col items-center py-10">
             <div>
               <h1 className="mb-6 text-center text-4xl sm:text-5xl text-black dark:text-white font-bold">Contact Us</h1>
-              <h3 className="mb-10 text-center textxl font-bold">You can please give us a call, send an email on a product you admire Or visit our Adress</h3>
+              <h3 className="mb-10 text-center textxl font-bold">You can please give us a call, send an email on a product you admire Or visit our Address</h3>
             </div>
 
             <div className="flex flex-col items-center gap-6 lg:justify-center  lg:grid lg:grid-cols-2">
