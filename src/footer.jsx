@@ -50,7 +50,7 @@ export default function Footer(){
         </div>
 
         <div className="text-center py-4 sm:6 border-t-2 ">
-          <h2>built by <a className="underline text-sky-700 hover:text-amber-500" href="https://github.com/grantovedje" target="blank"> grant ovedje</a></h2> 
+          <h2>built by <a className="underline text-sky-700 hover:text-amber-500" href="https://github.com/GrantOvedje/Viscoris" target="blank"> grant ovedje</a></h2> 
           <h2>Copyright © 2024 Viscoris. All Rights Reserved.</h2>
         </div>
     </footer>
