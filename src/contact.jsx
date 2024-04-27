@@ -19,7 +19,7 @@ export default function Contact(){
                     <div className="flex flex-col items-center py-10">
                         <div>
                             <h1 className="mb-6 text-center text-4xl sm:text-5xl text-black dark:text-white font-bold">Contact Us</h1>
-                            <h3 className="mb-10 text-center text-xl font-bold">Simply click on any of the contact detail below to make a request of the product or item you admire. Or visit our Adress.</h3>
+                            <h3 className="mb-10 text-center text-xl font-bold">Simply click on any of the contact detail below to make a request on the product or item you admire. Or visit our Address.</h3>
                         </div>
                         {/* You can please give us a call, chat us on whatsapp, send an email, all on a product or item you admire and would like to get by simply clicking on any of the contact details below. Or visit our Adress. */}
                         <div className="flex flex-col items-center gap-6 md:grid md:grid-cols-2  md:justify-center">
