@@ -19,7 +19,7 @@ const products=[
     },
 
     {
-        image: flexes,
+        image: flex,
         name:"Flexes",
         about:"Humans do experience joint, bone, and even muscle pains at least once in thier life. Recent studies also show that both young and older people do experience one type of joint and bone problem or another. Flexes is a total comprehensive solution for bone and joint health. it has a unique taste and ready to drink anytime!",
         price:"₦70,000",
