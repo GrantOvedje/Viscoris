@@ -83,7 +83,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 px-1 sm:px-5 pt-10 text-center md:text-left md:px-6 md:pt-0">
             
             <h1 className="text-4xl text-black dark:text-white sm:text-5xl md:text-7xl font-extrabold">Better Life With <span className="text-amber-500">Viscoris</span></h1>
-            <p className="not-italic text-base md:text-xl">An Inovative method for client satisfaction. With Viscoris, you can get the most out of your shopping experience. We provide the Best shopping service. Come have a life with Us.</p>
+            <p className="not-italic text-base md:text-xl">An Innovative method for client satisfaction. With Viscoris, you can get the most out of your shopping experience. We provide the Best shopping service. Come have a life with Us.</p>
             <Link className="rounded py-3 text-center text-lg font-bold text-white bg-cyan-600 dark:bg-cyan-400" to="/about">More About Us</Link>
           </div>
 
