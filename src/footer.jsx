@@ -13,12 +13,12 @@ export default function Footer(){
             <h1 className="mb-3 text-black dark:text-white text-2xl">Pages</h1>
 
             <ul className="mb-1">
-              <li className="hover:text-amber-500"><Link to="/products/supplement">Suppliments</Link></li>
-              <li className="hover:text-amber-500"><Link to="/products/coffee">Coffee</Link></li>
-              <li className="hover:text-amber-500"><Link to="/products/fuel-factor-x">Factor-X</Link></li>
-              <li className="hover:text-amber-500"><Link to="/products/other-things">Others</Link></li>
-              <li className="hover:text-amber-500"><Link to="/about">About Us</Link></li>
-              <li className="hover:text-amber-500"><Link to="/contacts">Contact Us</Link></li>
+              <li ><Link className="hover:text-amber-500" to="/products/supplement">Suppliments</Link></li>
+              <li ><Link className="hover:text-amber-500" to="/products/coffee">Coffee</Link></li>
+              <li ><Link className="hover:text-amber-500" to="/products/fuel-factor-x">Factor-X</Link></li>
+              <li ><Link className="hover:text-amber-500" to="/products/other-things">Others</Link></li>
+              <li ><Link className="hover:text-amber-500" to="/about">About Us</Link></li>
+              <li ><Link className="hover:text-amber-500" to="/contacts">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -30,11 +30,11 @@ export default function Footer(){
               <a className="flex gap-2 items-center hover:text-amber-500" href="mailto:viscoris@gmail.com"><ion-icon name="mail"></ion-icon> <p>viscoris@gmail.com</p></a>
             </ul>
             <ul className="flex gap-4">
-              <li className="hover:text-amber-500 text-2xl">
-                <a href="https://wa.me/2348050376399" target="blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+              <li className="text-2xl">
+                <a className="hover:text-amber-500" href="https://wa.me/2348050376399" target="blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
               </li>
-              <li className="hover:text-amber-500 text-2xl">
-                <a href="https://github.com/grantovedje" target="blank"><ion-icon name="logo-github"></ion-icon></a>
+              <li className="text-2xl">
+                <a className="hover:text-amber-500" href="https://github.com/grantovedje" target="blank"><ion-icon name="logo-github"></ion-icon></a>
               </li>
               <li className="hover:text-amber-500 text-2xl">
                 <ion-icon name="logo-facebook"></ion-icon>
