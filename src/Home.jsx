@@ -148,36 +148,36 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider" href="https://wa.me/2348050376399" target="blank">+234 805 037 6399</a>
-                  <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider" href="https://wa.me/2349134064916" target="blank">+234 913 406 4916</a>
+                  <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider hover:text-amber-500" href="https://wa.me/2348050376399" target="blank">+234 805 037 6399</a>
+                  <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider hover:text-amber-500" href="https://wa.me/2349134064916" target="blank">+234 913 406 4916</a>
                 </div>
               </div>
 
               <div className="w-52 sm:w-72 lg:w-52 bg-slate-50 dark:bg-sky-950 rounded-lg px-6 py-8 lg:py-4 ring-1 ring-slate-900/5 shadow-xl">
                 <div className="mb-8 inline-flex items-center justify-center text-white text-xl p-2 bg-indigo-500 rounded-md shadow-lg">
-                <ion-icon name="call"></ion-icon>
+                 <ion-icon name="call"></ion-icon>
                 </div>
 
                 <div className="flex flex-col gap-2">
-                <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider" href="tel:+234 805 037 6399" target="blank">+234 805 037 6399</a>
-                <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider" href="tel:+234 913 406 4916" target="blank">+234 913 406 4916</a>
+                 <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider hover:text-amber-500" href="tel:+234 805 037 6399" target="blank">+234 805 037 6399</a>
+                 <a className="text-slate-900 dark:text-white text-base font-medium tracking-wider hover:text-amber-500" href="tel:+234 913 406 4916" target="blank">+234 913 406 4916</a>
                 </div>
               </div>
 
               <div className="w-52 sm:w-72 lg:w-52 bg-slate-50 dark:bg-sky-950 rounded-lg px-6 py-8 lg:py-4 ring-1 ring-slate-900/5 shadow-xl">
                 <div className="mb-8 inline-flex items-center justify-center text-white text-xl p-2 bg-indigo-500 rounded-md shadow-lg">
-                <ion-icon name="mail"></ion-icon>
+                 <ion-icon name="mail"></ion-icon>
                 </div>
 
                 <div className="flex flex-col gap-2">
-                <a className="text-slate-900 dark:text-white text-base font-medium tracking-tighter" href="mailto:viscoris@gmail.com">viscoris@gmail.com</a>
-                <a className="text-slate-900 dark:text-white text-sm sm:text-base lg:text-sm font-medium tracking-tighter" href="mailto:helenovedje1972@gmail.com">helenovedje1972@gmail.com</a>
+                 <a className="text-slate-900 dark:text-white text-base font-medium tracking-tighter hover:text-amber-500" href="mailto:viscoris@gmail.com">viscoris@gmail.com</a>
+                 <a className="text-slate-900 dark:text-white text-sm sm:text-base lg:text-sm font-medium tracking-tighter hover:text-amber-500" href="mailto:helenovedje1972@gmail.com">helenovedje1972@gmail.com</a>
                 </div>
               </div>
 
               <div className="w-52 sm:w-72 bg-slate-50 dark:bg-sky-950 rounded-lg px-6 py-8 lg:py-4 ring-1 ring-slate-900/5 shadow-xl">
                 <div className="inline-flex items-center justify-center text-white text-xl p-2 bg-indigo-500 rounded-md shadow-lg">
-                <ion-icon name="home"></ion-icon>
+                 <ion-icon name="home"></ion-icon>
                 </div>
 
                 <h3 className="text-slate-900 dark:text-white mt-8 text-base font-medium tracking-tighter">Edjemuonyavwe Community Town-Hall Shopping Plaza, Otorho Road, Oghara Junction, Oghara, Delta State.</h3>
