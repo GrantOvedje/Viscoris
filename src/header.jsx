@@ -101,8 +101,7 @@ export default function Header(){
 
             <nav className="hidden md:flex">
                 <ul className="flex gap-8 lg:gap-14">
-                    {/* <li className="hover:text-amber-500"><Link to="/products/supplement">Suppliments</Link></li> */}
-                    <li className="hover:text-amber-500"><a href="/products/supplement">Suppliments</a></li>
+                    <li className="hover:text-amber-500"><Link to="/products/supplement">Suppliments</Link></li>
                     <li className="hover:text-amber-500"><Link to="/products/coffee">Coffee</Link></li>
                     <li className="hover:text-amber-500"><Link to="/products/fuel-factor-x">Factor-X</Link></li>
                     <li className="hover:text-amber-500"><Link to="/products/other-things">Others</Link></li>
